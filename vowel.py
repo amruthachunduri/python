@@ -1,6 +1,6 @@
-alpha=["a","e","i","o","u","A","E","I","O","U"]
-Y=raw_input("")
-if (Y in alpha):
+n5=["A","E","I","O","U","a","e","i","o","u"]
+xyz=raw_input("")
+if (xyz in n5):
     print (" Vowel")
 else:
     print ("Consonant")
