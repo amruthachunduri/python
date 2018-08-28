@@ -1,6 +1,5 @@
-try:
-	amru=int(raw_input())
-	vamp=int(raw_input())
+def power(amru,vamp):
 	print(amru**vamp)
-except:
-	print('invalid')
+amru=input()
+vamp=input()
+power(amru,vamp)
