@@ -1,0 +1,11 @@
+amru=int(input(""))
+vamp=amru
+vrin=0
+while(amru>0):
+  dig=amru%10
+  vrin=vrin*10+dig
+  amru=amru//10
+if(vamp==vrin):
+  print("yes")
+else:
+  print("no")
