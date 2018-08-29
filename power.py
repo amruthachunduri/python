@@ -1,5 +1,7 @@
-def power(amru,vamp):
-	print(amru**vamp)
-amru=input()
-vamp=input()
-power(amru,vamp)
+def main():
+    amru=int(input(""))
+    vamp=int(input(""))
+  print(amru**vamp)
+if_name_=='_main_':
+	main()
+
