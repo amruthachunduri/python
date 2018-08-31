@@ -1,5 +1,5 @@
-amru = 150  
-vamp = 160  
+amru = int(inpt(""))  
+vamp = int(input("")) 
   
 for n in range(amru,vamp + 1):  
    sum = 0  
