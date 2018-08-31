@@ -1,5 +1,5 @@
-amru=int(input(""))
-vamp=int(input(""))
+amru=1
+vamp=10
 for a in range(2,vamp+1):
     k=0
     for i in range(2,a//2+1):
