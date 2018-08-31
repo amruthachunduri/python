@@ -1,5 +1,5 @@
-amru = int(input(""))  
-vamp = int(input(""))  
+amru = 150  
+vamp = 160  
   
 for n in range(amru,vamp + 1):  
    sum = 0  
@@ -10,4 +10,4 @@ for n in range(amru,vamp + 1):
        abhi = abhi // 10  
   
    if n == sum:  
-       print(n) 
+       print(n)
