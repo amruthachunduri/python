@@ -1,2 +1,2 @@
-name=str(raw_input("enter the name:"))
-print(len(name)-name.count(' '))
+ammu=str(raw_input(""))
+print(len(ammu)-ammu.count(' '))
