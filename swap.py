@@ -1,6 +1,6 @@
-a=int(raw_input())
-b=int(raw_input())
-temp=a
-a=b
-b=temp
-print a,b
+ammu=int(raw_input()) 
+abhi=int(raw_input())
+temp=ammu
+ammu=abhi
+abhi=temp
+print ammu,abhi
