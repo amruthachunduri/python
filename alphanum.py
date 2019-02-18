@@ -1,5 +1,5 @@
 ammu=raw_input()
 if ammu.isalnum():
-    print("Yes")
+    print("no")
 else:
-    print("No")
+    print("yes")
