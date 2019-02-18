@@ -1,6 +1,6 @@
 ammu=int(input(""))
-count=0
+abhi=0
 while(ammu>0):
-    count=count+1
+    abhi=abhi+1
     ammu=ammu//10
-print(count)
+print(abhi)
