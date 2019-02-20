@@ -1,2 +1,1 @@
-s=raw_input("")
-print(s.upper())
+print(raw_input().title())
