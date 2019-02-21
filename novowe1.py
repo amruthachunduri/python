@@ -1,3 +1,4 @@
+s=raw_input("")
 amu=raw_input()
 abi=['a','e','i','o','u']
 l=list(amu)
