@@ -1,6 +1,6 @@
 s=raw_input("")
-a=['sunday','saturday']
-b=['monday','tuesday','wednesday','thursday','friday']
+a=['Sunday','Saturday']
+b=['Monday','Tuesday','Wednesday','Thursday','Friday']
 if s in a:
   print("yes")
 else:
