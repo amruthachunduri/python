@@ -1,1 +1,2 @@
-print(raw_input().title())
+s=(raw_input().title())
+print(s)
