@@ -1,3 +1,3 @@
-a=input()
-l=len(a)
-print(a[::-1])
+amu=input()
+len=len(amu)
+print(amu[::-1])
