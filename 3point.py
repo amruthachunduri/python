@@ -1,0 +1,5 @@
+amu,y1=map(int,raw_input("").split(' '))
+abi,y2=map(int,raw_input("").split(' '))
+x3,y3=map(int,raw_input("").split(' '))
+if (amu==abi and abi==x3) or(y1==y2 and y2==y3) or (abs(amu-abi)==abs(abi-x3) and abs(y1-y2)==abs(y2-y3)):print("yes")
+else:print("no")
