@@ -1,4 +1,4 @@
-amu,K=(raw_input().split())
+amu,abi=(raw_input().split())
 amu=int(amu)
 abi=int(abi)
 a=(raw_input()).split()
