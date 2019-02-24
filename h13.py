@@ -1,4 +1,4 @@
-amu=raw_input()
+amu=raw_input("")
 if(amu==amu[::-1]):
     print("YES")
 else:
