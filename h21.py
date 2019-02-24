@@ -1,18 +1,14 @@
-amu,b=map(eval,raw_input().split())
-nl1=[]
-for i in range(amu):
-  nl1.append(list(map(eval,raw_input().split())))
-for i in range(len(nl1)):
-  for j in range(len(nl1[i])):
-    if nl1[i][j]==0:
-      for i2 in range(a):
-        if nl1[i2][j]!=0:
-          nl1[i2][j]=9
-      for j2 in range(b):
-        if nl1[i][j2]!=0:
-          nl1[i][j2]=9
-for i in range(len(nl1)):
-  for j in range(len(nl1[i])):
-    if nl1[i][j]==9:
-      nl1[i][j]=0
-  print nl1[i]
+n=int(input())
+b=[]
+c=[]
+a=list(map(int,input().split()))
+p=1
+for i in range (0,n):
+    b.append(a[i])
+for i in range (0,n):
+    for j in range (0,n):
+        if(j!=i):
+            p=p*b[j]
+    c.append(p)
+    p=1
+print(" ".join(str(i) for i in c))  
