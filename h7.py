@@ -11,5 +11,5 @@ for i in range(0,c):
 		abi[i]=int(abi[i])
 		if abi[i]%2==0:
 			p.append(abi[i])
-s=''.join(map(str,p))
+s=' '.join(map(str,p))
 print(s)
