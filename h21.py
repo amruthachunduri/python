@@ -15,4 +15,4 @@ for i in range(len(nl1)):
   for j in range(len(nl1[i])):
     if nl1[i][j]==9:
       nl1[i][j]=0
-  print *nl1[i]
+  print nl1[i]
