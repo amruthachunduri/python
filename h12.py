@@ -1,0 +1,5 @@
+amu,abi=map(int,raw_input().split())
+b=raw_input().split()
+c=len(b)
+b.sort()
+print(b[c-abi])
