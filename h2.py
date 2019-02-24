@@ -1,0 +1,10 @@
+amu=int(raw_input())
+abi=raw_input().split()
+abi.sort()
+su=0
+s=len(abi)
+while(s>0):
+    a=int(abi[s-1])
+    su=su*10+a
+    s-=1
+print(su)
