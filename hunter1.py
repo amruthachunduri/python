@@ -1,5 +1,5 @@
-amu=int(raw_input())
-abi=raw_input().split(' ')
+amu=int(raw_input("))
+abi=raw_input(").split(' ')
 a=" ".join(map(str,abi))
 m=[]
 for x in a:
