@@ -2,7 +2,7 @@ amu=str(raw_input())
 a=[]
 k=[]
 c=1
-for x in range(0,len(s)-1):
+for x in range(0,len(amu)-1):
     if(amu[x]==amu[x+1]):
         c=c+1
     else:
