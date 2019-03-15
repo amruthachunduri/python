@@ -1,11 +1,11 @@
-amu=raw_input().split()
+ammu=raw_input().split()
 abi=0
-for i in amu:
-    if(abi<len(amu)):
+for i in ammu:
+    if(abi<len(ammu)):
         if(abi%2==0):
-            amu[abi]=i[::-1]
+            ammu[abi]=i[::-1]
             abi=abi+1
         else:
             abi=abi+1
-m=" ".join(map(str,amu))
+m=" ".join(map(str,ammu))
 print(m)
