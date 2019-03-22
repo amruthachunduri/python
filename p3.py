@@ -1,14 +1,16 @@
-AMU,ABI=raw_input("").split(' ')
-a=list(AMU)
-b=list(ABI)
-c=[]
-cost=0
-l1=len(AMU)
-l2=len(ABI)
-if l1!=l2:
-	for AMU in range(l2-l1):
-		a.append(" ")
-for AMU in range(max(l1,l2)):
-	if a[AMU]!=b[AMU]:
-		cost=cost+1
-print(cost)
+amu,b=map(str,raw_input().split())
+if len(amu)<len(b):
+    k=len(amu)
+else:
+    k=len(b)
+c=0
+for i in range(0,k):
+    if amu[i]==b[i]:
+        c=c+0
+    else:
+        c=c+1
+if len(amu)<len(b) or len(amu)>len(b):
+    k=abs(len(amu)-len(b))
+    c=c+k
+print(c)
+#for finding a min cost  
