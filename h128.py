@@ -13,3 +13,6 @@ while len(amu)!=1:
 abi.sort(key=len)
 for i in abi:
 	print(i)
+	
+	
+	
