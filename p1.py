@@ -23,4 +23,4 @@ while(j<len(b)):
         c.append(b[j])
     j=j+1
 c="".join(c)
-print (c)p1
+print (c)
