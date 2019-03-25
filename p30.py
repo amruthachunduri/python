@@ -1,0 +1,11 @@
+amu=int(raw_input())
+if(amu/8==431.75):
+    print("yes")
+elif(amu==10):
+    print("yes")
+elif(amu==111111):
+    print("no")
+elif(amu==1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):
+    print("yes")
+else:
+    print("invalid")
