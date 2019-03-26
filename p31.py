@@ -1,9 +1,8 @@
-
-k,m=map(int,input().split())
+amu,m=map(int,raw_input().split())
 import sys
 edges=[]
 for j in range(m):
-  edges.append(list(map(int,input().split())))
+  edges.append(list(map(int,raw_input().split())))
 
 maxi=0
 for i in range(m):
